@@ -2,10 +2,12 @@
     margin: 0px; 
     padding:5px;
     font-family: "Brush Script MT", sans-serif;
-    width: 20%;
-    border-radius: 8%;
     color: palevioletred;
     font-size: 50px;
+    white-space: nowrap;
+    margin-left: 30px;
+    margin-top: 4px;
+    
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -15,28 +17,99 @@ body{
 
 body > header {
     background-color: pink;
-    padding: 10px;
+    padding: 8px;
     display: flex;
+    
 }
-#logo-image{
-    display:flex
-}
-
 body > header > nav >ul{
     display: flex;
     list-style-type: none;
     text-decoration: none;
     justify-content: space-around;
+    margin-left: 30%;
+    margin-top: 25px;
     
 }
 
 body > header > nav >ul >li{
     color: rgb(204, 36, 36);
+    white-space: nowrap;
     text-decoration:none;
     padding: 6px;
     border: 3px solid palevioletred;
     border-radius: 8%;
     margin-left: 5%;
+}
 
+aside > section > h1{
+    background-color: palevioletred;
+    padding: 1%;
+    margin: 0%;
+    font-family:Monaco ;
+    text-align: center;
+}
 
+#logo-image{
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+
+}
+
+#logo-section{
+    display: flex;
+}
+
+#main-image{
+    width: 100%;
+    text-align: center;
+    height: 300px;
+}
+main > article > header{
+    text-align:center;
+}
+
+#grid-container{
+    display:grid;
+}
+
+#1{
+    grid-area: 1;
+}
+
+#2{
+    grid-area: 2;
+}
+#3{
+    grid-area: 3;
+}
+#4{
+    grid-area: 4;
+}
+#5{
+    grid-area: 5;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    '1 2 3 4';
+    margin-left: 2%;
+    text-align: center;
+    line-height: 0.7;
+}
+#main-title {
+    text-align: center;
+}
+
+#sub-header{
+    text-align: center;
+}
+body {
+
+        background-color: rgb(255, 249, 254);
+}
+
+#news{
+    text-align: center;
 }
